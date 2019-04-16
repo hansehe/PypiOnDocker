@@ -1,7 +1,7 @@
 # Pypi On Docker
 
 Deploy your personal pypi register with Docker!
-Basically, follow this installation: [https://hub.docker.com/r/mosquito/pypi-server/](https://hub.docker.com/r/mosquito/pypi-server/)
+Basically, follow this installation: [https://hub.docker.com/r/pypiserver/pypiserver](https://hub.docker.com/r/pypiserver/pypiserver)
 
 ## Requirements:
 - Docker
@@ -11,3 +11,6 @@ Basically, follow this installation: [https://hub.docker.com/r/mosquito/pypi-ser
 ## Run & Stop
 - `swm -start`
 - `swm -stop`
+
+## Build System
+- [SwarmManagement](https://github.com/DIPSAS/SwarmManagement)

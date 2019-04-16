@@ -3,10 +3,8 @@ networks:
 
 volumes:
     portainer_data:
-    postgres_data:
-    pypi_data:
+    pypi_packages:
 
 stacks:
     portainer: docker-compose.portainer.yml
-    postgres_db: docker-compose.postgres.yml
     pypi: docker-compose.pypi.yml
