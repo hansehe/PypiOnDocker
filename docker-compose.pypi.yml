@@ -11,8 +11,8 @@ services:
     ports:
       - 8181:8080
     volumes:
-      - pypi_packages:/home/pypiserver/packages
-    command: --passwords . --authenticate . --overwrite --root /home/pypiserver/packages
+      - pypi_packages:/data/packages
+    command: --passwords . --authenticate . --overwrite --root /data/packages
 
 volumes:
   pypi_packages:
