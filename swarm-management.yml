@@ -2,9 +2,9 @@ networks:
     backend_network: false
 
 volumes:
-    portainer_data:
+    # portainer_data:
     pypi_packages:
 
 stacks:
-    portainer: docker-compose.portainer.yml
+    # portainer: docker-compose.portainer.yml
     pypi: docker-compose.pypi.yml
