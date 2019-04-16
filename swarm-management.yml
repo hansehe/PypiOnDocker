@@ -1,6 +1,3 @@
-networks: 
-    backend_network: false
-
 volumes:
     # portainer_data:
     pypi_packages:

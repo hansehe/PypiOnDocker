@@ -10,16 +10,10 @@ services:
         condition: on-failure
     ports:
       - 8181:8080
-    networks:
-      - backend_network
     volumes:
       - pypi_packages:/home/pypiserver/packages
     command: --passwords . --authenticate . --overwrite --root /home/pypiserver/packages
 
 volumes:
   pypi_packages:
-    external: true
-
-networks:
-  backend_network:
     external: true
